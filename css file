@@ -1,0 +1,171 @@
+#main {
+    text-align: center;
+    background-image: url('czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk3MS0wMzIuanBn.webp');
+    background-size: cover; /* Makes the image cover the entire area */
+    background-position: center center; /* Centers the image */
+    min-height: 100vh; /* Full height of the viewport */
+    color: white; /* Ensure text is visible on background */
+}
+#heading{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 100px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#heading:hover{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 60px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1)  ;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+
+#main #heading  img{
+    width: 5%;
+    border-radius: 50%;
+}
+
+#image1{
+   
+    height: 300px;
+    position: static;
+    display: flex;
+    position: relative;
+    left: 550px;
+    top: 25px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+#image1:hover{
+   
+    box-shadow: 2px 2px 20px black;
+    transition: 2s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+p {
+    margin-top: 45px;
+    margin-left: 40px ;
+    font-size: 20px;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+button {
+    margin-top: -1%;
+    margin-left: 50px;
+
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(150, 76, 88);
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+button:hover {
+
+    border-radius: 100px;
+
+}
+
+
+#image2{
+
+    height: 200px;
+    
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    transform: rotate(-10deg);
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#image2:hover{
+   
+    box-shadow: 2px 2px 20px black;
+    transition: 2s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+#image3{
+
+    height: 250px;
+    
+    position: absolute;
+    left: 120px;
+    top: 400px;
+    transform: rotate(6deg);
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#image3:hover{
+   
+    box-shadow: 2px 2px 20px black;
+    transition: 2s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+#image4{
+
+    height: 200px;
+    
+    position: absolute;
+    left: 1150px;
+    top: 150px;
+    transform: rotate(10deg);
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+
+#image4:hover{
+   
+    box-shadow: 2px 2px 20px black;
+    transition: 2s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+#image5{
+
+    height: 250px;
+    
+    position: absolute;
+    left: 1050px;
+    top: 400px;
+    transform: rotate(-8deg);
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#image5:hover{
+   
+    box-shadow: 2px 2px 20px black;
+    transition: 2s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+
+
+
+
+
+
